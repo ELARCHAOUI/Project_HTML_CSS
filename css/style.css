@@ -1,0 +1,251 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 1.6em;
+	font-weight: 30px;
+	background:#f4f4f4;
+	color:#fff;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+#main-header{
+	background: #1A1A1A;
+	padding-top:30px;
+	color:#ffffff;
+	min-height: 70px;
+	border-bottom:white 5px solid;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+
+#main-header a{
+	text-decoration: none;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+}
+#main-header .branding{
+	float:left;
+}
+#main-header .branding h1{
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#main-header nav{
+	float:right;
+	margin-bottom:10px;
+	margin-top: 30px;
+	
+}
+#main-header li{
+	display: inline;
+	float: left;
+	padding:0 20px 0 20px;
+}	
+#main-header .Highlights,#main-header .Highlights a{
+	color:#3c24ed;
+	font-weight:bold;
+}
+#main-header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+#showcase{
+	min-height:400px;
+	background:url("../image/showc.jpg") no-repeat;
+	background-size: cover; /* Adapte l'image à la taille du conteneur */
+    background-position: center; /* Centre l'image */
+    width: 100%; /* Prend toute la largeur disponible */
+	text-align: center;
+	font-weight: bold;
+
+
+}
+#showcase .container h2{
+	margin-top:90px;
+	font-size:40px;
+	
+	
+}
+#showcase .container p{
+	font-size:18px;
+}
+#newsletter .container {
+	background:#1A1A1A;
+	width:100%;
+	
+}
+#newsletter .container h2{
+	float: left;
+	color:#ffffff;
+	font-size:bold;
+	padding-left:40px;
+	
+	box-sizing: border-box;
+}
+#newsletter .container form{
+	float: right;
+	padding-top:19px;
+	padding-right: 30px;
+}
+#newsletter .container input[type="email"]{
+	
+	height:25px;
+	width:280px;
+	margin-right:15px;
+	font-size: 18px;
+	font-family: calibri;
+}
+.button-1{
+	width:90px;
+	height:30px;
+	border:none;
+	background:#3c24ed;
+	color:#ffffff;
+	font-size:18px;
+	font-family: Geneva;
+}
+#boxes {
+	margin-top: 5px;
+	background: #ffffff;
+}
+#boxes .container{
+	background: #ffffff;
+}
+#boxes .container .box{
+	float:left;
+	width:33.3%;
+	text-align: center;
+	background: #ffffff;
+	color:black;
+
+}
+#boxes .container .box1{
+	border-right: black 1px solid;}
+#boxes .container .box2{
+	border-right: black 1px solid;}
+
+#boxes .container .box img{
+	padding-top: 10px;
+	width:100px;
+}
+#boxes .container .box  .Audi{
+	padding-top:40px;
+	width:200px;
+}
+#boxes .container .box h3{
+	font-size: 30px;
+}
+#boxes .container .box .Audis{
+	padding-top: 11px;
+}
+#main-footer .container{
+	text-align:center;
+	background:#1a1a1a;
+	width:100%;
+
+}
+article#article{
+	float: left;
+	width:65%;
+	
+}
+article#article h3{
+	font-size:35px;
+	font-family: Calibri;
+	color:black;
+	padding-left: 100px;
+}
+article#article p{
+	font-size:bold;
+	font-family: Arial;
+	color:black;
+	
+	text-align: justify;
+}
+
+aside#asides{
+	float:right;
+	width:30%;
+	margin-top:30px;
+
+}
+aside#asides h3{
+	font-size:35px;
+	font-family: Calibri;
+	color:black;
+	padding-left: 70px;
+
+}
+aside#asides p{
+	font-size:bold;
+	font-family: Arial;
+	color:black;
+	text-align: justify;
+	padding-left: 10px;
+	padding-top: 10px;
+
+}
+#Service article{
+	color:black;
+	text-align: justify;
+	font-size: bold;
+	float: left;
+	width:60%;
+	padding-right:40px;
+}
+#Service article h3{
+	font-size: 40px;
+	font-family: Calibri;
+}
+#Service article ul li h4{
+	font-size: 20px;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+#Service article ul li p{
+padding-left: 10px;
+}
+#Service aside{
+	float: right;
+	width:30%;
+	background:#1A1A1A;
+	margin-top: 150px;
+	height: 320px;
+	box-sizing: border-box;
+}
+#Service aside h3{
+	font-size: 30px;
+	font-family: Arial;
+	padding-left: 10px;
+}
+#Service aside form .name{
+	padding-left: 10px;
+	font-size: 19px;
+	font-family: Arial;
+}
+#Service aside form .name1{
+	margin-left:25px;
+	width:200px;
+}
+.button-2{
+	width:90px;
+	height:30px;
+	border:none;
+	background:#3c24ed;
+	color:#ffffff;
+	font-size:18px;
+	font-family: Geneva;
+	margin-left: 220px;
+	margin-top: 10px;
+}
+@media(max-width:1080px){
+	body{
+		display: none;
+	}
+}
